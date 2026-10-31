@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casas UNIVERSAL</title>
+    <link rel="stylesheet" href="style.css">
+  
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">CASAS UNIVERSALES</div>
+             <ul CLASS="nav-links">
+                <li><a href="#">Comienzo</a></li>
+                <li><a href="#propiedades">Propiedades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<main>
+
+    <section id="hero">
+            <h1>Bienvenido a Casas UNIVERSALES</h1>
+            <p>Encuentra tu casa en este universo.</p>
+            <a href="#propiedades" class="cta-button">Ver Propiedades</a>
+    </section>
+
+    
+    <section id="propiedades">
+            <h2>Nuestras Propiedades</h2>
+
+            <div class="property-grid">
+                <div class="property-card">
+                    <img src="img/propiedad1.jpeg" alt="Casa 1">
+                    <h3>Casa Moderna</h3>
+                    <p class="precio">300 mil pesos.</p>
+                    <p class="descripcion">3 habitaciones, 2 baños, jardín amplio.</p>
+                     <button onclick="myClickFunction()">Ver Detalles</button>
+                </div>
+
+                <div class="property-card">
+                    <img src="img/propiedad2.jpeg" alt="Casa 2">
+                    <h3>Casa Clásica</h3>
+                    <p class="precio">400 mil pesos.</p>
+                    <p class="descripcion">4 habitaciones, 3 baños, piscina privada.</p>
+                     <button onclick="myClickFunction()">Ver Detalles</button>
+                </div>
+
+                <div class="property-card">
+                    <img src="img/propiedad3.jpeg" alt="Casa 3">
+                    <h3>Casa Rural</h3>
+                    <p class="precio">700 mil pesos.</p>
+                    <p class="descripcion">5 habitaciones, 4 baños, terraza con vista al mar.</p>
+                    <button onclick="myClickFunction()">Ver Detalles</button>
+                </div>
+                
+            </div>
+    </section>
+
+    <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="formContacto">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" placeholder="Aqui nombre" name="name" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" placeholder="Aqui tu correo electrónico" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" placeholder="Aqui tu mensaje" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+    </section>
+    <script src="script.js"></script>  
+
+</main>
+
+</body>
+<footer>
+    <p>&copy; 2026 Casas UNIVERSALES. Todos los derechos reservados.</p> 
+</footer>
+
+
+</html>
